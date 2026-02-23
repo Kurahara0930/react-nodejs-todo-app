@@ -2,8 +2,8 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
+    "rootDir": "./src", /*トランスパイル対象のフォルダ*/
+    "outDir": "./dist", /*トランスパイル後の.jsファイルの出力先フォルダ*/
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
