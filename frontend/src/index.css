@@ -244,10 +244,26 @@ form button:hover {
   margin: 0;
 }
 
+.todo-date {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
 .todo-created-at {
+  /* display: flex; */
+  /* gap: 0.5rem; */
   font-size: 0.85rem;
   color: var(--c-text-muted);
-  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
+}
+
+.todo-updated-at {
+  /* display: flex; */
+  /* gap: 0.5rem; */
+  font-size: 0.85rem;
+  color: var(--c-text-muted);
+  /* margin-top: 0.5rem; */
 }
 
 .todo-edit-form-wrapper {
